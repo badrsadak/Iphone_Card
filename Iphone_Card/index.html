@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="card Pink">
+        <div class="prodect">
+            <span class="brand">Apple</span>
+            <span class="series ">16</span>
+            <span class="price">$700</span>
+            <img src="image/P.png" alt="">
+        </div>
+        <div class="title">
+            <h2>iPhone Pink</h2>
+        </div>
+    </div>
+
+    <div class="card Ultramarine">
+        <div class="prodect">
+            <span class="brand">Apple</span>
+            <span class="series ">16</span>
+            <span class="price">$700</span>
+            <img src="image/B.png" alt="">
+        </div>
+        <div class="title">
+            <h2>iPhone Ultramarine</h2>
+        </div>
+    </div>
+
+    <div class="card White">
+        <div class="prodect">
+            <span class="brand">Apple</span>
+            <span class="series ">16</span>
+            <span class="price">$700</span>
+            <img src="image/W.png" alt="">
+        </div>
+        <div class="title">
+            <h2>iPhone White</h2>
+        </div>
+    </div>
+
+
+
+    
+    <script src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 4000,
+            glare : true,
+            "max-glare": 0.25,
+        });
+        
+        
+    </script>
+</body>
+</html>
